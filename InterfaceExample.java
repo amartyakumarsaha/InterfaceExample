@@ -4,7 +4,7 @@ interface Sum{
 interface Subtract{
     public abstract void subtraction(); //Here We provided the " public abstract " 
 }
-class Operation implements Sum,Subtract{      // " Multiple Inheritance " is used .
+class Operation implements Sum,Subtract{      // " Multiple Inheritance " has used .
     int a,b;
     Operation(int a,int b)
     {
